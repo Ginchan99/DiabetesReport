@@ -2,7 +2,7 @@ rm(list=ls()) #clearing the enviornment
 dia_test = read.csv("diabetes_test.csv") #load csv file
 dia_train = read.csv("diabetes_train.csv") #load csv file
 
-library(caTools) #load library caTools
+#library(caTools) #load library caTools
 #finding column names of train dataset 
 colnames(dia_train) 
 #creating logistin function
